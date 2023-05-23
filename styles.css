@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'Canela';
+    src: url('fonts/CanelaText-Light-Trial.otf') format('opentype');
+    font-style: normal;
+}
+body {
+    background-color: #343434;
+    color: #D8D8D8;
+    font-family: 'Canela', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    padding: 5%;
+    box-sizing: border-box;
+    font-size: 24px;
+}
+.content {
+    max-width: 60%;
+    width: 100%;
+
+}
+p {
+    line-height: 1.4em;
+}
+a {
+    color: #CD901D;
+    text-decoration: none;
+}
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 18px;
+        justify-content: flex-start;
+    }
+    .content {
+        max-width: 90%;
+        width: 100%;
+    }
+}
